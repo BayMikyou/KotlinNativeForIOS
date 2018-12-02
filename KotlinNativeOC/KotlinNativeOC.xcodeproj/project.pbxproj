@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFFA51EF3D1F2926F84ADA44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFFA5210D4D72FAA5BBD784E /* LaunchScreen.storyboard */; };
+		BFFA5C27E2266EEA3C13626E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFFA5F083D28FF730FB66CD5 /* Assets.xcassets */; };
+		BFFA5C3335F50AC17F1B5F01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFFA5A915BEE210264B4426B /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BFFA5047C2E0E1D26B54BF5B /* AppDelegate.kt */ = {isa = PBXFileReference; lastKnownFileType = file.kt; path = AppDelegate.kt; sourceTree = "<group>"; };
+		BFFA5390B7348122530FF578 /* gradlew */ = {isa = PBXFileReference; lastKnownFileType = text; path = gradlew; sourceTree = "<group>"; };
+		BFFA53FEE69DD03B0C40011F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		BFFA5573939B7949BA0CF539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFFA57387B6A5F88285FC34A /* main.kt */ = {isa = PBXFileReference; lastKnownFileType = file.kt; path = main.kt; sourceTree = "<group>"; };
+		BFFA5905E68B908AE13518C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFFA5BB692601C081044D677 /* build.gradle */ = {isa = PBXFileReference; lastKnownFileType = file.gradle; path = build.gradle; sourceTree = "<group>"; };
+		BFFA5D9488AA7C7F1E22FD86 /* gradle-wrapper.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = "gradle-wrapper.jar"; sourceTree = "<group>"; };
+		BFFA5E65502D3D3074566C49 /* KotlinNativeOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KotlinNativeOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFFA5F083D28FF730FB66CD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFFA5F2535071D45E2D67340 /* gradle-wrapper.properties */ = {isa = PBXFileReference; lastKnownFileType = file.properties; path = "gradle-wrapper.properties"; sourceTree = "<group>"; };
+		BFFA5FF7CF7691701E19E08E /* ViewController.kt */ = {isa = PBXFileReference; lastKnownFileType = file.kt; path = ViewController.kt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFFA5C730F93D00B3BBCEF5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFFA507F540379E76503E412 /* kotlin */ = {
+			isa = PBXGroup;
+			children = (
+				BFFA5047C2E0E1D26B54BF5B /* AppDelegate.kt */,
+				BFFA5FF7CF7691701E19E08E /* ViewController.kt */,
+				BFFA57387B6A5F88285FC34A /* main.kt */,
+			);
+			path = kotlin;
+			sourceTree = "<group>";
+		};
+		BFFA50A56ED8EBEF5B3A263A /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BFFA526DADE75AC3225096D6 /* main */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		BFFA5184E833F98F301C43D6 = {
+			isa = PBXGroup;
+			children = (
+				BFFA5CC9FC879DBE93C52BDA /* Products */,
+				BFFA5BCFA18FF4E96506D851 /* KotlinNativeOC */,
+			);
+			sourceTree = "<group>";
+		};
+		BFFA526DADE75AC3225096D6 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				BFFA507F540379E76503E412 /* kotlin */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		BFFA54D6123720408CD41556 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFFA5BB692601C081044D677 /* build.gradle */,
+				BFFA5390B7348122530FF578 /* gradlew */,
+				BFFA5965731E54EBC8F09B38 /* gradle */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFFA5965731E54EBC8F09B38 /* gradle */ = {
+			isa = PBXGroup;
+			children = (
+				BFFA5D8DE8031F31860B2930 /* wrapper */,
+			);
+			path = gradle;
+			sourceTree = "<group>";
+		};
+		BFFA5BCFA18FF4E96506D851 /* KotlinNativeOC */ = {
+			isa = PBXGroup;
+			children = (
+				BFFA54D6123720408CD41556 /* Supporting Files */,
+				BFFA53FEE69DD03B0C40011F /* Info.plist */,
+				BFFA5F083D28FF730FB66CD5 /* Assets.xcassets */,
+				BFFA5210D4D72FAA5BBD784E /* LaunchScreen.storyboard */,
+				BFFA5A915BEE210264B4426B /* Main.storyboard */,
+				BFFA50A56ED8EBEF5B3A263A /* src */,
+			);
+			path = KotlinNativeOC;
+			sourceTree = "<group>";
+		};
+		BFFA5CC9FC879DBE93C52BDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFFA5E65502D3D3074566C49 /* KotlinNativeOC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFFA5D8DE8031F31860B2930 /* wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				BFFA5F2535071D45E2D67340 /* gradle-wrapper.properties */,
+				BFFA5D9488AA7C7F1E22FD86 /* gradle-wrapper.jar */,
+			);
+			path = wrapper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFFA58CC3FC59CE7385E4DFD /* KotlinNativeOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFFA5DE939093B6C35669BA3 /* Build configuration list for PBXNativeTarget "KotlinNativeOC" */;
+			buildPhases = (
+				BFFA5A2BC9F9A22A7785E724 /* Sources */,
+				BFFA5C730F93D00B3BBCEF5C /* Frameworks */,
+				BFFA5A328D79A4D8D9C35D9F /* Resources */,
+				BFFA5A6731F617435627ABB3 /* Compile Kotlin/Native */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KotlinNativeOC;
+			productName = KotlinNativeOC;
+			productReference = BFFA5E65502D3D3074566C49 /* KotlinNativeOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFFA5CCCA446F0E9F3ADE58E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = mikyou;
+				TargetAttributes = {
+					BFFA58CC3FC59CE7385E4DFD = {
+						DevelopmentTeam = 6H6TCKMVW8;
+					};
+				};
+			};
+			buildConfigurationList = BFFA5C7F1D06DF08F096F088 /* Build configuration list for PBXProject "KotlinNativeOC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BFFA5184E833F98F301C43D6;
+			productRefGroup = BFFA5CC9FC879DBE93C52BDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFFA58CC3FC59CE7385E4DFD /* KotlinNativeOC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFFA5A328D79A4D8D9C35D9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFA5C27E2266EEA3C13626E /* Assets.xcassets in Resources */,
+				BFFA51EF3D1F2926F84ADA44 /* LaunchScreen.storyboard in Resources */,
+				BFFA5C3335F50AC17F1B5F01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BFFA5A6731F617435627ABB3 /* Compile Kotlin/Native */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Compile Kotlin/Native";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "rm -f \"$TARGET_BUILD_DIR/$EXECUTABLE_PATH\"\ncd \"$SRCROOT/$KONAN_PACKAGE_NAME\"; sh -c \". ./gradlew $KONAN_TASK -Pkonan.configuration.build.dir=\\\"$CONFIGURATION_BUILD_DIR\\\" \\\n-Pkonan.debugging.symbols=$DEBUGGING_SYMBOLS -Pkonan.optimizations.enable=$KONAN_ENABLE_OPTIMIZATIONS\"\ncp \"$TARGET_BUILD_DIR/$KONAN_PACKAGE_NAME.kexe\" \"$TARGET_BUILD_DIR/$EXECUTABLE_PATH\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFFA5A2BC9F9A22A7785E724 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BFFA5210D4D72FAA5BBD784E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFFA5573939B7949BA0CF539 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BFFA5A915BEE210264B4426B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFFA5905E68B908AE13518C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFFA53ABA8962ED35BBAB79C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFFA578B9738247957AC7262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BFFA5927192589BE33637036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6H6TCKMVW8;
+				INFOPLIST_FILE = KotlinNativeOC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				KONAN_ENABLE_OPTIMIZATIONS = YES;
+				KONAN_PACKAGE_NAME = KotlinNativeOC;
+				"KONAN_TASK[sdk=iphoneos*]" = "compileKonan$(TARGET_NAME:c99extidentifier)Ios_arm64";
+				"KONAN_TASK[sdk=iphonesimulator*]" = "compileKonan$(TARGET_NAME:c99extidentifier)Ios_x64";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikyou.kn.KotlinNativeOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
+			};
+			name = Release;
+		};
+		BFFA5C0DC99EEAA8AE222895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6H6TCKMVW8;
+				INFOPLIST_FILE = KotlinNativeOC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				KONAN_ENABLE_OPTIMIZATIONS = NO;
+				KONAN_PACKAGE_NAME = KotlinNativeOC;
+				"KONAN_TASK[sdk=iphoneos*]" = "compileKonan$(TARGET_NAME:c99extidentifier)Ios_arm64";
+				"KONAN_TASK[sdk=iphonesimulator*]" = "compileKonan$(TARGET_NAME:c99extidentifier)Ios_x64";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikyou.kn.KotlinNativeOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFFA5C7F1D06DF08F096F088 /* Build configuration list for PBXProject "KotlinNativeOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFFA578B9738247957AC7262 /* Debug */,
+				BFFA53ABA8962ED35BBAB79C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFFA5DE939093B6C35669BA3 /* Build configuration list for PBXNativeTarget "KotlinNativeOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFFA5C0DC99EEAA8AE222895 /* Debug */,
+				BFFA5927192589BE33637036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFFA5CCCA446F0E9F3ADE58E /* Project object */;
+}
